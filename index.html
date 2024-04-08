@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+ 
+ 
+    <body>
+    <title>Gamer Cave</title>
+    <h1>Gamer Cave</h1> 
+    <br>
+    <h2>I migliori giochi del 2023 </h2>
+    <!--Creazione card-->
+  <div class="card-container">
+    <div class="card">
+        <img src="../academy/phantom.jpg">
+        <div class="card-content">
+            <h3>Cyberpunk 2077-Phantom Liberty</h3>
+            <p>Phantom Liberty è una nuova avventura spy-thriller per Cyberpunk 2077. Torna nei panni di V, mercenario cyberpotenziato, e intraprendi una missione di vitale importanza e densa di intrighi per salvare il presidente degli NUSA.</p>
+        
+        </div>
+    </div>
+   
+ 
+    <div class="card">
+        <img src="../academy/baldur.avif">
+        <div class="card-content">
+            <h3>Baldur's Gate 3</h3>
+            <p>Baldur's Gate è una serie di videogiochi di ruolo che si svolge nel Faerûn, il maggior continente dell'ambientazione per il gioco di ruolo Dungeon&Dungeons.</p>
+       
+        </div>
+    </div>
+  
+      
+  <div class="card">
+    <img src="../academy/starfield.jpg">
+    <div class="card-content">
+        <h3>Starfield</h3>
+        <p>Il tutto ebbe inizio nel 2050, anno in cui i primi esseri umani riuscirono ad atterrare su Marte. Da lì, l’esplorazione spaziale dell'uomo subì un’impennata tecnologica talmente notevole che, nel 2100, fu finalmente possibile vivere nello spazio.</p>
+   
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="../academy/zelda.webp">
+    <div class="card-content">
+        <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+        <p>In questo seguito di The Legend of Zelda: Breath of the Wild partirai per una pericolosa missione alla ricerca della verità sul catastrofico evento che ha gettato il regno nel caos.</p>
+   
+    </div>
+</div>
+</div>
+</head>
+<hr>
+<br>
+<p class="fine"> Sei interessato alla nostra Gamer Cave?  </p>
+   <button id="MyButton">Iscriviti qui! </button>
+   <script>
+    const button =document.querySelector('button');
+    button.addEventListener('click', updateName);
+    function updateName(){
+        let name= prompt('Inserisci la tua email');
+        paragraph.textContent='Benvenuto'+name;}
+    
+   </script>
+</body>
+</html>
